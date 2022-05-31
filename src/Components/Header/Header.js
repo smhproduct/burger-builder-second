@@ -1,6 +1,6 @@
 import './Header.css';
 import Logo from '../../assets/logo.png';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import {
     Navbar,
     NavbarBrand,
@@ -20,10 +20,10 @@ const Header = () => {
                 </NavbarBrand>
                 <Nav className='mr-md-5'>
                     <NavItem>
-                        <Link to="/" className="NavLink">Burger Builder</Link>
+                        <NavLink to="/" className="NavLink">Burger Builder</NavLink>
                     </NavItem>
                     <NavItem>
-                        <Link to="/orders" className="NavLink">Orders</Link>
+                        <NavLink to="/orders" className="NavLink">Orders</NavLink>
                     </NavItem>
                 </Nav>
             </Navbar>

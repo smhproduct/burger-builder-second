@@ -20,5 +20,10 @@
 
 .NavLink:hover {
     color: wheat !important;
+    text-decoration: none;
+}
 
+.active{
+    text-shadow: 1px 1px grey !important;
+    color: wheat !important;
 }
